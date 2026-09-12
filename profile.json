@@ -1,0 +1,43 @@
+{
+  "applicant": {
+    "full_name": "Nikunj",
+    "email": "itsnikunj61@gmail.com",
+    "phone": "7398060022",
+    "location": "India",
+    "resume_file": "./resume.pdf",
+    "cover_letter_template": "./cover_letter_template.txt",
+    "linkedin_url": "",
+    "portfolio_url": ""
+  },
+  "search_criteria": {
+    "role_keywords": ["software engineer intern", "backend developer intern"],
+    "locations": ["Remote", "Bengaluru", "Pune"],
+    "experience_level": "internship",
+    "min_stipend": 0,
+    "exclude_keywords": ["unpaid", "commission only"]
+  },
+  "portals": [
+    {
+      "name": "internshala",
+      "base_url": "https://internshala.com/internships",
+      "webcmd_profile": "jobsearch",
+      "enabled": true
+    },
+    {
+      "name": "naukri",
+      "base_url": "https://www.naukri.com/",
+      "webcmd_profile": "jobsearch",
+      "enabled": true
+    },
+    {
+      "name": "linkedin",
+      "base_url": "https://www.linkedin.com/jobs/",
+      "webcmd_profile": "jobsearch",
+      "enabled": false
+    }
+  ],
+  "run_limits": {
+    "max_applications_per_portal": 5,
+    "max_total_applications": 10
+  }
+}
